@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.f363f544.js",
-    "index.html": "/index.html",
-    "main.f363f544.js.map": "/static/js/main.f363f544.js.map"
+    "main.js": "/concert-new/static/js/main.f363f544.js",
+    "index.html": "/concert-new/index.html",
+    "main.f363f544.js.map": "/concert-new/static/js/main.f363f544.js.map"
   },
   "entrypoints": [
     "static/js/main.f363f544.js"
