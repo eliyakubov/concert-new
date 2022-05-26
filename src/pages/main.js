@@ -38,7 +38,7 @@ const Main = () => {
       newMap[row + seat] = { name: name, email: email, row: row, seat: seat };
       setMap(newMap);
     } catch (err) {
-      console.log(err);
+      console.error(err);
     }
   };
 
