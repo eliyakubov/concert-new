@@ -36,6 +36,7 @@ const Section = ({
                 deleteSeat={deleteSeat}
                 row={data.row}
                 map={map}
+                section={sectionName}
               />
             ))}
           </Box>

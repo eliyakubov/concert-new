@@ -2,7 +2,7 @@ import { Chip } from "@mui/material";
 import { useEffect, useState } from "react";
 import Modal from "./modal";
 
-const Seat = ({ row, seat, addSeat, getSeat, deleteSeat, map }) => {
+const Seat = ({ row, seat, addSeat, getSeat, deleteSeat, map, section }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [seatTaken, setSeatTaken] = useState(false);
 
@@ -37,6 +37,7 @@ const Seat = ({ row, seat, addSeat, getSeat, deleteSeat, map }) => {
         open={modalOpen}
         handleClose={handleClose}
         addSeat={addSeat}
+        section={section}
       />
     </>
   );

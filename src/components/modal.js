@@ -17,6 +17,7 @@ const Modal = ({
   addSeat,
   getSeat,
   deleteSeat,
+  section,
 }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -36,7 +37,7 @@ const Modal = ({
   const handleSubmit = () => {
     if (name && email && numOfTickets > 0) {
       for (let i = 0; i < numOfTickets; i++) {
-        addSeat(row, seat + i, name, email);
+        addSeat(row, seat + i, section, name, email);
         clearAll();
         handleClose();
       }
@@ -67,7 +68,10 @@ const Modal = ({
   return (
     <Dialog open={open} maxWidth="sm" fullWidth onClose={handleClose}>
       <DialogTitle>
-        <Box display="flex" justifyContent="center">{`${row} ${seat}`}</Box>
+        <Box
+          display="flex"
+          justifyContent="center"
+        >{`${section} ${row}${seat}`}</Box>
       </DialogTitle>
       <DialogContent>
         {error && (
