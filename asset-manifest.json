@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/concert-new/static/js/main.f363f544.js",
+    "main.js": "/concert-new/static/js/main.b83931bd.js",
     "index.html": "/concert-new/index.html",
-    "main.f363f544.js.map": "/concert-new/static/js/main.f363f544.js.map"
+    "main.b83931bd.js.map": "/concert-new/static/js/main.b83931bd.js.map"
   },
   "entrypoints": [
-    "static/js/main.f363f544.js"
+    "static/js/main.b83931bd.js"
   ]
 }
